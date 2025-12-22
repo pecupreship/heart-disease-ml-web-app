@@ -54,6 +54,36 @@ python app.py
 http://127.0.0.1:5000
 
 
+## Screenshots
+
+Here are examples of the application in action. All screenshots are from the fully functional web app.
+
+### Input Form
+Users can enter patient health metrics such as age, blood pressure, cholesterol, and more to get a prediction.
+
+![Input Form](screenshots/input_form.png)
+
+### Page that contain data for no heart disease result page
+
+![Prediction Result](screenshots/no_disease_result_data.png)
+
+### Page that predict no heart disease 
+
+![Prediction Result](screenshots/no_disease_result.png)
+
+### Page that contain data for heart disease result page
+
+![Prediction Result](screenshots/disease_result_data.png)
+
+### Page that predict heart disease 
+
+![Prediction Result](screenshots/disease_result.png)
+
+
+> 💡 Note: All screenshots are taken from the deployed version and the local version; both work identically.
+
+
+
 
 
 
