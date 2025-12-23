@@ -61,7 +61,8 @@ Here are examples of the application in action. All screenshots are from the ful
 ### Input Form
 Users can enter patient health metrics such as age, blood pressure, cholesterol, and more to get a prediction.
 
-![Input Form](https://github.com/pecupreship/heart-disease-ml-web-app/blob/master/screenshots/input_form.png) 
+![Input Form](https://raw.githubusercontent.com/pecupreship/heart-disease-ml-web-app/master/screenshots/input_form.png)
+
 
 ### Page that contain data for no heart disease result page
 
