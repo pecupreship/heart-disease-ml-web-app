@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <title>Admin Panel</title>
+
+  <style>
+
+    body{
+      margin:0;
+      padding:40px;
+
+      background:#b7f7a7;
+
+      font-family:Arial, sans-serif;
+
+      display:flex;
+      justify-content:center;
+    }
+
+    form{
+      background:#ff5100;
+
+      padding:25px;
+
+      border-radius:10px;
+
+      color:white;
+
+      max-width:850px;
+      width:100%;
+    }
+
+    h2{
+      text-align:center;
+    }
+
+    .form-grid{
+      display:grid;
+
+      grid-template-columns:1fr 1fr;
+
+      gap:15px;
+    }
+
+    input{
+      width:100%;
+
+      padding:12px;
+
+      border:none;
+
+      border-radius:5px;
+
+      box-sizing:border-box;
+    }
+
+    button{
+      width:100%;
+
+      padding:12px;
+
+      margin-top:20px;
+
+      border:none;
+
+      border-radius:5px;
+
+      background:white;
+
+      color:red;
+
+      font-weight:bold;
+
+      cursor:pointer;
+    }
+
+  </style>
+
+</head>
+
+<body>
+
+  <form action="/add-data" method="post">
+
+    <h2>Add New Patient Record</h2>
+
+    <div class="form-grid">
+
+      <input name="age" placeholder="Age">
+
+      <input name="sex" placeholder="Sex">
+
+      <input name="cp" placeholder="Chest Pain Type">
+
+      <input name="trestbps"
+      placeholder="Resting Blood Pressure">
+
+      <input name="chol"
+      placeholder="Cholesterol">
+
+      <input name="fbs"
+      placeholder="Fasting Blood Sugar">
+
+      <input name="restecg"
+      placeholder="Resting ECG">
+
+      <input name="thalach"
+      placeholder="Max Heart Rate">
+
+      <input name="exang"
+      placeholder="Exercise Angina">
+
+      <input name="oldpeak"
+      placeholder="Oldpeak">
+
+      <input name="slope"
+      placeholder="Slope">
+
+      <input name="ca"
+      placeholder="Major Vessels">
+
+      <input name="thal"
+      placeholder="Thal">
+
+      <input name="target"
+      placeholder="Target">
+
+    </div>
+
+    <button type="submit">
+      Add Record
+    </button>
+
+  </form>
+
+</body>
+</html>
